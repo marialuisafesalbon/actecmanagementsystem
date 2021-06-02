@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 0;
+    width: 100%; }
+
+.navbar-brand{
+
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	
+}
+
+button.navbar-toggler{
+	background-color: antiquewhite;
+}
+.navbar-nav {
+	margin-left: 150px;
+	
+	
+}
+
+.nav-link{
+	padding: 5px 10px;
+	margin: 0px 8px;
+}
+
+a.active {
+	color: white;
+	font-weight: bold;
+	background: rgba (255, 255, 255, 0.2);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5)
+
+	
+}
+a.active:hover{
+	color: white;
+
+}
+
+nav.navbar {
+	margin-bottom: 20px;
+}
+
+.nav-link {
+	color: white;
+	
+}
+
+li.active{
+	color:cadetblue;
+}
+
+.login{
+	margin-left: 100px;
+}
+
+.register {
+	margin-left: 5px;
+}
+
+.bg {
+        background: url("../img/logo2.png") no-repeat;
+        width: 57%;
+        height: 100vh;
+        background-size: 100%;
+        background-position: center center;
+	margin-top: -40px;
+         }
+
+
+/* footer */
+
+footer {
+	margin-top: -37px;
+	padding: 5px;
+}
+
+h6 {
+
+	text-align: center;
+}
+
+
+/* footer */
+
+footer {
+	margin-top: 700px;
+	padding: 5px;
+}
+
+h6 {
+
+	text-align: center;
+}
+
+
+.breadcrumb-item {
+	color: cadetblue;
+	font-size: 30px;
+	font-family: sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a.blue {
+	color: royalblue;
+	text-decoration: underline;
+}
+
+
+
+img.userimage{
+	float: left;
+	height: 200px;
+	width: 200px;
+	margin-right: 50px;
+	margin-left: 300px;
+}
+
+
+.studentdash {
+		margin-top: 10px;
+	
+}
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+
+
+
+
+
+
+
+
+
+
+/*
+  i.fas,
+  i.fab {
+    border: 1px solid red;
+}
+  .fa-fish {
+    color: salmon;
+  }
+
+  .fa-frog {
+    color: green;
+  }
+
+  .fa-user-ninja.vanished {
+    opacity: 0.0;
+  }
+
+  .fa-facebook {
+    color: rgb(59, 91, 152);
+  }
+*/
